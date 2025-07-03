@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سجل المحادثات</title>
+    <link rel="stylesheet" href="سجل-المحادثات-للطلاب.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <button class="icon-button">
+                <i class="ri-search-line ri-lg"></i>
+            </button>
+            <h1 class="title">سجل المحادثات</h1>
+            <button class="icon-button">
+                <i class="ri-arrow-right-s-line ri-lg"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="filters-section">
+        <div class="filters-container">
+            <button class="filter-button active">
+                جميع المحادثات
+            </button>
+            <button class="filter-button">
+                استفسارات المواد
+            </button>
+            <button class="filter-button">
+                خطوات التسجيل
+            </button>
+            <button class="filter-button">
+                توصيات النظام
+            </button>
+        </div>
+        
+        <div class="sort-container">
+            <div class="select-wrapper">
+                <select class="sort-select">
+                    <option>الأحدث أولاً</option>
+                    <option>الأقدم أولاً</option>
+                </select>
+                <div class="select-icon">
+                    <i class="ri-arrow-down-s-line"></i>
+                </div>
+            </div>
+            
+            <button class="date-filter-button">
+                <i class="ri-calendar-line"></i>
+                <span>تصفية حسب التاريخ</span>
+            </button>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <div class="conversations-list">
+            <div class="conversation-card">
+                <div class="card-header">
+                    <div class="card-title">
+                        <div class="icon-circle blue">
+                            <i class="ri-question-line"></i>
+                        </div>
+                        <h3>استفسار عن مواعيد التسجيل</h3>
+                    </div>
+                    <div class="card-meta">
+                        <span class="date">30 يونيو 2025</span>
+                        <button class="bookmark-button">
+                            <i class="ri-bookmark-line"></i>
+                        </button>
+                    </div>
+                </div>
+                <p class="card-description">سألت عن مواعيد التسجيل للفصل الدراسي القادم وكيفية حجز المواد المطلوبة قبل نفاذ المقاعد المتاحة...</p>
+                <div class="card-footer">
+                    <span class="tag blue">خطوات التسجيل</span>
+                    <div class="message-count">
+                        <span>
+                            <i class="ri-message-3-line"></i>
+                            5 رسائل
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="conversation-card">
+                <div class="card-header">
+                    <div class="card-title">
+                        <div class="icon-circle green">
+                            <i class="ri-book-open-line"></i>
+                        </div>
+                        <h3>توصيات لمقررات اختيارية</h3>
+                    </div>
+                    <div class="card-meta">
+                        <span class="date">29 يونيو 2025</span>
+                        <button class="bookmark-button active">
+                            <i class="ri-bookmark-fill"></i>
+                        </button>
+                    </div>
+                </div>
+                <p class="card-description">طلبت توصيات لمقررات اختيارية تناسب تخصصي في علوم الحاسب، وحصلت على قائمة بالمقررات المتاحة مع تقييمات الطلاب السابقين...</p>
+                <div class="card-footer">
+                    <span class="tag green">توصيات النظام</span>
+                    <div class="message-count">
+                        <span>
+                            <i class="ri-message-3-line"></i>
+                            8 رسائل
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="conversation-card">
+                <div class="card-header">
+                    <div class="card-title">
+                        <div class="icon-circle purple">
+                            <i class="ri-file-list-3-line"></i>
+                        </div>
+                        <h3>متطلبات مادة الرياضيات المتقدمة</h3>
+                    </div>
+                    <div class="card-meta">
+                        <span class="date">28 يونيو 2025</span>
+                        <button class="bookmark-button">
+                            <i class="ri-bookmark-line"></i>
+                        </button>
+                    </div>
+                </div>
+                <p class="card-description">استفسرت عن المتطلبات السابقة لمادة الرياضيات المتقدمة ومحتوى المقرر والمهارات اللازمة للنجاح فيها...</p>
+                <div class="card-footer">
+                    <span class="tag purple">استفسارات المواد</span>
+                    <div class="message-count">
+                        <span>
+                            <i class="ri-message-3-line"></i>
+                            4 رسائل
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+     
+    <nav class="bottom-nav">
+        <div class="nav-container">
+            <a href="#" class="nav-item">
+                <div class="nav-icon">
+                    <i class="ri-home-line"></i>
+                </div>
+                <span class="nav-label">الرئيسية</span>
+            </a>
+            <a href="#" class="nav-item active">
+                <div class="nav-icon">
+                    <i class="ri-message-3-fill"></i>
+                </div>
+                <span class="nav-label">المحادثات</span>
+            </a>
+            <a href="#" class="nav-item">
+                <div class="nav-icon">
+                    <i class="ri-settings-line"></i>
+                </div>
+                <span class="nav-label">الإعدادات</span>
+            </a>
+            <a href="#" class="nav-item">
+                <div class="nav-icon">
+                    <i class="ri-user-line"></i>
+                </div>
+                <span class="nav-label">الملف الشخصي</span>
+            </a>
+        </div>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لوحة تحكم الطالب</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="لوحة-الطالب-الأكاديمية.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-container">
+                <div class="logo">logo</div>
+                <h1 class="system-name">نظام الطالب الأكاديمي</h1>
+            </div>
+            
+            <div class="user-actions">
+                <button class="notification-button">
+                    <i class="ri-notification-3-line ri-lg"></i>
+                    <span class="notification-badge">3</span>
+                </button>
+                
+                <div class="user-profile">
+                    <div class="user-info">
+                        <p class="user-name">أحمد محمد الأحمدي</p>
+                        <p class="user-id">رقم الطالب: 442010123</p>
+                    </div>
+                    <div class="user-avatar">
+                        <i class="ri-user-line ri-lg"></i>
+                    </div>
+                </div>
+                
+                <button class="logout-button">
+                    <i class="ri-logout-box-r-line"></i>
+                    <span>تسجيل الخروج</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="#" class="menu-item active">
+                            <i class="ri-dashboard-line"></i>
+                            <span>لوحة التحكم</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-item">
+                            <i class="ri-book-open-line"></i>
+                            <span>تسجيل المقررات</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-item">
+                            <i class="ri-calendar-line"></i>
+                            <span>الجدول الدراسي</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-item">
+                            <i class="ri-file-list-3-line"></i>
+                            <span>السجل الأكاديمي</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-item">
+                            <i class="ri-message-3-line"></i>
+                            <span>الرسائل</span>
+                            <span class="message-count">5</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-item">
+                            <i class="ri-settings-3-line"></i>
+                            <span>الإعدادات</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="content">
+            <div class="welcome-section">
+                <div>
+                    <h2 class="welcome-title">مرحباً، أحمد!</h2>
+                    <p class="welcome-subtitle">الفصل الدراسي الأول 1446-1447هـ</p>
+                </div>
+                <div class="date-display">
+                    <i class="ri-calendar-2-line"></i>
+                    <span>الإثنين، 30 يونيو 2025</span>
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="progress-circle">
+                        <svg width="100" height="100">
+                            <circle class="progress-bg" r="40" cx="50" cy="50" />
+                            <circle class="progress-bar" r="40" cx="50" cy="50" stroke-dasharray="251.2" stroke-dashoffset="62.8" />
+                        </svg>
+                        <div class="progress-value">75%</div>
+                    </div>
+                    <h3 class="stat-title">حالة التسجيل</h3>
+                    <p class="stat-description">اكتمال عملية التسجيل للفصل الحالي</p>
+                    <a href="#" class="stat-link">
+                        <span>استكمال التسجيل</span>
+                        <i class="ri-arrow-left-line"></i>
+                    </a>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <div class="stat-icon blue">
+                            <i class="ri-book-open-line ri-xl"></i>
+                        </div>
+                        <span class="stat-number">5</span>
+                    </div>
+                    <h3 class="stat-title">المواد المسجلة</h3>
+                    <p class="stat-description">إجمالي 15 ساعة معتمدة</p>
+                    <a href="#" class="stat-link">
+                        <span>عرض المواد</span>
+                        <i class="ri-arrow-left-line"></i>
+                    </a>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <div class="stat-icon red">
+                            <i class="ri-error-warning-line ri-xl"></i>
+                        </div>
+                        <span class="stat-number red-text">2</span>
+                    </div>
+                    <h3 class="stat-title">تعارضات</h3>
+                    <p class="stat-description">يوجد تعارض في جدولك الدراسي</p>
+                    <a href="#" class="stat-link red-link">
+                        <span>حل التعارضات</span>
+                        <i class="ri-arrow-left-line"></i>
+                    </a>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <div class="stat-icon green">
+                            <i class="ri-mail-line ri-xl"></i>
+                        </div>
+                        <span class="stat-number">5</span>
+                    </div>
+                    <h3 class="stat-title">رسائل جديدة</h3>
+                    <p class="stat-description">لديك رسائل غير مقروءة</p>
+                    <a href="#" class="stat-link">
+                        <span>قراءة الرسائل</span>
+                        <i class="ri-arrow-left-line"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="courses-section">
+                <div class="section-header">
+                    <h3 class="section-title">المقررات المسجلة</h3>
+                    <button class="primary-button">
+                        <i class="ri-add-line"></i>
+                        <span>إضافة مقرر</span>
+                    </button>
+                </div>
+                
+                <div class="table-container">
+                    <table class="courses-table">
+                        <thead>
+                            <tr>
+                                <th>رمز المقرر</th>
+                                <th>اسم المقرر</th>
+                                <th>الساعات</th>
+                                <th>الشعبة</th>
+                                <th>أستاذ المقرر</th>
+                                <th>الحالة</th>
+                                <th>الإجراءات</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>MATH 101</td>
+                                <td>حساب التفاضل والتكامل</td>
+                                <td>3</td>
+                                <td>A-01</td>
+                                <td>د. عبدالرحمن العمري</td>
+                                <td>
+                                    <span class="status-badge confirmed">مؤكد</span>
+                                </td>
+                                <td>
+                                    <div class="action-buttons">
+                                        <button class="action-button info">
+                                            <i class="ri-information-line"></i>
+                                        </button>
+                                        <button class="action-button delete">
+                                            <i class="ri-delete-bin-line"></i>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>PHYS 101</td>
+                                <td>الفيزياء العامة</td>
+                                <td>4</td>
+                                <td>B-03</td>
+                                <td>د. سعيد القحطاني</td>
+                                <td>
+                                    <span class="status-badge pending">قيد المراجعة</span>
+                                </td>
+                                <td>
+                                    <div class="action-buttons">
+                                        <button class="action-button info">
+                                            <i class="ri-information-line"></i>
+                                        </button>
+                                        <button class="action-button delete">
+                                            <i class="ri-delete-bin-line"></i>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>COMP 201</td>
+                                <td>برمجة الحاسب</td>
+                                <td>3</td>
+                                <td>C-05</td>
+                                <td>د. محمد السالم</td>
+                                <td>
+                                    <span class="status-badge conflict">تعارض</span>
+                                </td>
+                                <td>
+                                    <div class="action-buttons">
+                                        <button class="action-button info">
+                                            <i class="ri-information-line"></i>
+                                        </button>
+                                        <button class="action-button delete">
+                                            <i class="ri-delete-bin-line"></i>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="cards-grid">
+                <div class="info-card">
+                    <div class="card-header">
+                        <h3 class="card-title">آخر الإشعارات</h3>
+                        <a href="#" class="view-all">عرض الكل</a>
+                    </div>
+                    
+                    <div class="notifications-list">
+                        <div class="notification-item">
+                            <div class="notification-icon warning">
+                                <i class="ri-error-warning-line ri-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="notification-title">تعارض في جدولك الدراسي</h4>
+                                <p class="notification-content">يوجد تعارض بين مقرري COMP 201 و ISLM 101</p>
+                                <p class="notification-time">منذ ساعتين</p>
+                            </div>
+                        </div>
+                        
+                        <div class="notification-item">
+                            <div class="notification-icon success">
+                                <i class="ri-check-line ri-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="notification-title">تم تأكيد تسجيلك في مقرر</h4>
+                                <p class="notification-content">تم تأكيد تسجيلك في مقرر CHEM 101 الكيمياء العامة</p>
+                                <p class="notification-time">منذ 5 ساعات</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="card-header">
+                        <h3 class="card-title">تذكيرات مهمة</h3>
+                        <a href="#" class="view-all">إضافة تذكير</a>
+                    </div>
+                    
+                    <div class="reminders-list">
+                        <div class="reminder-item">
+                            <input type="checkbox" class="reminder-checkbox">
+                            <div>
+                                <p class="reminder-title">إكمال تسجيل المقررات</p>
+                                <p class="reminder-date">الموعد النهائي: 5 يوليو 2025</p>
+                            </div>
+                            <span class="priority urgent">عاجل</span>
+                        </div>
+                        
+                        <div class="reminder-item">
+                            <input type="checkbox" class="reminder-checkbox">
+                            <div>
+                                <p class="reminder-title">تحديث البيانات الشخصية</p>
+                                <p class="reminder-date">الموعد النهائي: 15 يوليو 2025</p>
+                            </div>
+                            <span class="priority medium">متوسط</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

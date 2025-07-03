@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختيار المواد الدراسية</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <link rel="stylesheet" href="اختيار-المواد-الدراسية.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-top">
+                <h1 class="title">اختيار المواد الدراسية</h1>
+                <div class="user-icon">
+                    <i class="ri-user-line ri-lg"></i>
+                </div>
+            </div>
+            
+            <div class="search-container">
+                <div class="search-icon">
+                    <i class="ri-search-line"></i>
+                </div>
+                <input type="search" class="search-input" placeholder="ابحث عن مادة...">
+            </div>
+            
+            <div class="filters">
+                <div class="filter-item">
+                    <span class="filter-label">التخصص:</span>
+                    <select class="filter-select">
+                        <option>جميع التخصصات</option>
+                        <option>علوم الحاسوب</option>
+                        <option>هندسة البرمجيات</option>
+                        <option>نظم المعلومات</option>
+                    </select>
+                </div>
+                
+                <div class="filter-item">
+                    <span class="filter-label">المستوى:</span>
+                    <select class="filter-select">
+                        <option>جميع المستويات</option>
+                        <option>المستوى الأول</option>
+                        <option>المستوى الثاني</option>
+                        <option>المستوى الثالث</option>
+                        <option>المستوى الرابع</option>
+                    </select>
+                </div>
+                
+                <div class="filter-item">
+                    <span class="filter-label">اليوم:</span>
+                    <select class="filter-select">
+                        <option>جميع الأيام</option>
+                        <option>الأحد</option>
+                        <option>الاثنين</option>
+                        <option>الثلاثاء</option>
+                        <option>الأربعاء</option>
+                        <option>الخميس</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="header-bottom">
+                <h2 class="subtitle">المواد المتاحة للتسجيل</h2>
+                <div class="date-info">
+                    <span>19 مايو 2025</span>
+                    <span>|</span>
+                    <span>الفصل الدراسي الأول</span>
+                </div>
+            </div>
+        </header>
+        
+        <main class="main-content">
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-content">
+                        <div class="course-header">
+                            <div>
+                                <h3 class="course-title">برمجة 1</h3>
+                                <p class="course-code">CS101</p>
+                            </div>
+                            <div class="course-icon">
+                                <i class="ri-code-line"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="course-details">
+                            <div class="detail-item">
+                                <i class="ri-time-line"></i>
+                                <span>3 ساعات معتمدة</span>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <i class="ri-calendar-line"></i>
+                                <span>الأحد 10:00 صباحاً</span>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <i class="ri-user-line"></i>
+                                <span>د. محمد الأحمد</span>
+                            </div>
+                        </div>
+                        
+                        <div class="course-footer">
+                            <div class="seats-info">
+                                <span class="status available">متاح</span>
+                                <span class="seats">35/40 مقعد</span>
+                            </div>
+                            <button class="register-btn">تسجيل</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-content">
+                        <div class="course-header">
+                            <div>
+                                <h3 class="course-title">قواعد بيانات</h3>
+                                <p class="course-code">CS220</p>
+                            </div>
+                            <div class="course-icon">
+                                <i class="ri-database-2-line"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="course-details">
+                            <div class="detail-item">
+                                <i class="ri-time-line"></i>
+                                <span>3 ساعات معتمدة</span>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <i class="ri-calendar-line"></i>
+                                <span>الأربعاء 11:00 صباحاً</span>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <i class="ri-user-line"></i>
+                                <span>د. سارة العلي</span>
+                            </div>
+                        </div>
+                        
+                        <div class="course-footer">
+                            <div class="seats-info">
+                                <span class="status available">متاح</span>
+                                <span class="seats">28/30 مقعد</span>
+                            </div>
+                            <button class="register-btn">تسجيل</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="course-card">
+                    <div class="course-content">
+                        <div class="course-header">
+                            <div>
+                                <h3 class="course-title">هياكل البيانات</h3>
+                                <p class="course-code">CS210</p>
+                            </div>
+                            <div class="course-icon">
+                                <i class="ri-stack-line"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="course-details">
+                            <div class="detail-item">
+                                <i class="ri-time-line"></i>
+                                <span>3 ساعات معتمدة</span>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <i class="ri-calendar-line"></i>
+                                <span>الاثنين 9:00 صباحاً</span>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <i class="ri-user-line"></i>
+                                <span>د. خالد المنصور</span>
+                            </div>
+                        </div>
+                        
+                        <div class="course-footer">
+                            <div class="seats-info">
+                                <span class="status available">متاح</span>
+                                <span class="seats">22/35 مقعد</span>
+                            </div>
+                            <button class="register-btn">تسجيل</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="course-card">
+                    <div class="course-content">
+                        <div class="course-header">
+                            <div>
+                                <h3 class="course-title">شبكات الحاسوب</h3>
+                                <p class="course-code">CS330</p>
+                            </div>
+                            <div class="course-icon">
+                                <i class="ri-global-line"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="course-details">
+                            <div class="detail-item">
+                                <i class="ri-time-line"></i>
+                                <span>3 ساعات معتمدة</span>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <i class="ri-calendar-line"></i>
+                                <span>الثلاثاء 1:00 ظهراً</span>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <i class="ri-user-line"></i>
+                                <span>د. أحمد الناصر</span>
+                            </div>
+                        </div>
+                        
+                        <div class="course-footer">
+                            <div class="seats-info">
+                                <span class="status limited">محدود</span>
+                                <span class="seats">5/25 مقعد</span>
+                            </div>
+                            <button class="register-btn">تسجيل</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="course-card">
+                    <div class="course-content">
+                        <div class="course-header">
+                            <div>
+                                <h3 class="course-title">نظم التشغيل</h3>
+                                <p class="course-code">CS340</p>
+                            </div>
+                            <div class="course-icon">
+                                <i class="ri-terminal-box-line"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="course-details">
+                            <div class="detail-item">
+                                <i class="ri-time-line"></i>
+                                <span>3 ساعات معتمدة</span>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <i class="ri-calendar-line"></i>
+                                <span>الخميس 10:00 صباحاً</span>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <i class="ri-user-line"></i>
+                                <span>د. فاطمة الزهراني</span>
+                            </div>
+                        </div>
+                        
+                        <div class="course-footer">
+                            <div class="seats-info">
+                                <span class="status full">مكتمل</span>
+                                <span class="seats">0/30 مقعد</span>
+                            </div>
+                            <button class="register-btn disabled">مكتمل</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="course-card">
+                    <div class="course-content">
+                        <div class="course-header">
+                            <div>
+                                <h3 class="course-title">برمجة الويب</h3>
+                                <p class="course-code">CS350</p>
+                            </div>
+                            <div class="course-icon">
+                                <i class="ri-html5-line"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="course-details">
+                            <div class="detail-item">
+                                <i class="ri-time-line"></i>
+                                <span>3 ساعات معتمدة</span>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <i class="ri-calendar-line"></i>
+                                <span>الأحد 2:00 ظهراً</span>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <i class="ri-user-line"></i>
+                                <span>د. عبدالله القحطاني</span>
+                            </div>
+                        </div>
+                        
+                        <div class="course-footer">
+                            <div class="seats-info">
+                                <span class="status available">متاح</span>
+                                <span class="seats">18/25 مقعد</span>
+                            </div>
+                            <button class="register-btn">تسجيل</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <div class="bottom-bar">
+            <div class="bar-content">
+                <div class="bar-info">
+                    <div class="info-item">
+                        <span class="info-label">المواد المسجلة:</span>
+                        <span class="info-value">2</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">الساعات المعتمدة:</span>
+                        <span class="info-value">6 / 18</span>
+                    </div>
+                </div>
+                <button class="schedule-btn">عرض الجدول الدراسي</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
